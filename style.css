@@ -111,14 +111,14 @@ i{
   font-weight: bold;
 }
 
-@media (max-width: 480px){
+@media (max-width: 352px){
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
 }
 img{
   width: 100vw;
