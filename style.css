@@ -151,6 +151,9 @@ i {
     width: 100vw;
     height: auto;
   }
+  #check{
+    text-align: center;
+  }
   #link {
     text-align: center;
   }
