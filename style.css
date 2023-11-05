@@ -144,8 +144,8 @@ i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 85%;
   }
   img {
     width: 100vw;
