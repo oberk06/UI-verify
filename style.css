@@ -4,16 +4,16 @@
   --inputborder: #adc178;
   --inputvalid: #3a86ff;
   --body: #fae1dd;
-  --containerborder:#e76f51;
+  --containerborder: #e76f51;
 }
 
-.dark{
+.dark {
   --bgcolor: #14213d;
   --container: white;
-  --inputborder:#ffbe0b;
-  --inputvalid:#81d8d0;
-  --body:#14213d;
-  --containerborder:#ffc300;
+  --inputborder: #ffbe0b;
+  --inputvalid: #81d8d0;
+  --body: #14213d;
+  --containerborder: #ffc300;
 }
 
 * {
@@ -102,66 +102,67 @@ input:focus {
 input:valid {
   border: 2px solid var(--inputvalid);
 }
-i{
+i {
   position: absolute;
   right: 20px;
   top: 15px;
 }
-#link{
+#link {
   font-weight: bold;
 }
 
-@media (max-width: 352px){
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-}
-img{
-  width: 100vw;
-}
-#link{
-text-align: center;
-}
-small {
-  display: flex;
-flex-direction: column;
-}
-small a{
-  text-align: center;
-  margin-bottom: 15px;
-}
-h3{
-  font-size: 12px;
-}
-}
-@media (min-width: 481px) and (max-width: 1024px){
-  .container{
+@media (min-width: 481px) and (max-width: 1024px) {
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
   }
-  img{
+  img {
     width: 100vw;
   }
-  #link{
-  text-align: center;
+  #link {
+    text-align: center;
   }
   small {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
   }
-  small a{
+  small a {
     text-align: center;
     margin-bottom: 15px;
   }
-  h3{
+  h3 {
+    font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  img {
+    width: 100vw;
+    height: auto;
+  }
+  #link {
+    text-align: center;
+  }
+  small {
+    display: flex;
+    flex-direction: column;
+  }
+  small a {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  h3 {
     font-size: 12px;
   }
 }
